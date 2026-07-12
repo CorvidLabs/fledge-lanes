@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-for-fledge-lanes",
+  "slug": "adopt-specsync-5-0-1-and-trust-1-0-0-for-fledge-lanes",
+  "title": "Adopt SpecSync 5.0.1 and Trust 1.0.0 for Fledge Lanes",
+  "description": "Adopt SpecSync 5.0.1 and Trust 1.0.0 for Fledge Lanes",
+  "kind": "migration",
+  "state": "draft",
+  "base_commit": "90159eb7531bf0b6cb7a05a100c3bf97a79ca363",
+  "created_at": 1783887244,
+  "updated_at": 1783887251,
+  "affected_specs": [],
+  "affected_paths": [
+    ".github/",
+    ".specsync/",
+    ".trust.toml",
+    ".augur.toml",
+    ".attest.json",
+    "fledge.toml",
+    "AGENTS.md"
+  ],
+  "no_spec_change": true,
+  "no_spec_change_rationale": "Governance and deterministic template validation only; published lane template interfaces and behavior are unchanged.",
+  "acceptance_criteria": [
+    "All nine published Fledge lane manifests validate; agents and Trust doctor are healthy; all template interfaces remain unchanged."
+  ],
+  "selected_artifacts": [
+    "context",
+    "research",
+    "design",
+    "plan",
+    "tasks",
+    "testing",
+    "docs"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "yes",
+    "public_contract": "no"
+  }
+}

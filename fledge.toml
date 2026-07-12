@@ -14,11 +14,24 @@
 # ---------------------------------------------------------------------------
 
 [tasks]
+verify-root = "test -s fledge.toml"
+verify-rust = "test -s rust/fledge.toml"
+verify-rust-ci = "test -s rust-ci/fledge.toml"
+verify-node = "test -s node-typescript/fledge.toml"
+verify-node-ci = "test -s node-ci/fledge.toml"
+verify-python = "test -s python/fledge.toml"
+verify-go = "test -s go/fledge.toml"
+verify-docker = "test -s docker/fledge.toml"
+verify-release = "test -s release/fledge.toml"
 lint    = "echo 'Replace with your lint command (e.g. cargo clippy, ruff check ., eslint .)'"
 fmt     = "echo 'Replace with your format command (e.g. cargo fmt --check, ruff format --check .)'"
 test    = "echo 'Replace with your test command (e.g. cargo test, pytest, npm test)'"
 build   = "echo 'Replace with your build command (e.g. cargo build, npm run build)'"
 audit   = "echo 'Replace with your audit command (e.g. cargo audit, pip-audit, npm audit)'"
+
+[lanes.verify]
+description = "Validate every published Fledge lane template manifest"
+steps = ["verify-root", "verify-rust", "verify-rust-ci", "verify-node", "verify-node-ci", "verify-python", "verify-go", "verify-docker", "verify-release"]
 
 # ---------------------------------------------------------------------------
 # Lanes

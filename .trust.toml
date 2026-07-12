@@ -1,0 +1,17 @@
+schema_version = 1
+profile = "standard"
+[lifecycle]
+command = ["fledge", "lanes", "run", "verify"]
+[contract]
+enabled = true
+require_coverage = 0
+skip_reason = "Template repository has no canonical requirement companion; deterministic manifest validation and SDD lifecycle enforcement remain blocking"
+[risk]
+threshold = "block"
+[provenance]
+mode = "soft"
+policy = ".attest.json"
+skip_reason = ""
+[atlas]
+enabled = false
+skip_reason = "No Atlas publication is owned by this template repository"
