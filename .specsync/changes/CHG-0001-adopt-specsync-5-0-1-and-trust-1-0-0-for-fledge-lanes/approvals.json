@@ -1,0 +1,25 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783987235,
+      "digest": "c8ee58977fa10e2ca82c024d752f973ed0b7954ba7f22944748d714986bcffba",
+      "note": "Approved after reviewing the nine-manifest contract, stable requirement IDs, and deterministic non-executing validation design."
+    },
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1783987403,
+      "digest": "8b08b1b0a12b234e445fd14287c87a498d91a170985f141f30f524f454ec73ee",
+      "note": "Re-approved after strict coverage identified and added explicit validator and Trust-workflow requirements."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1783987491,
+      "digest": "e2ca89ccbf4d6fb2a11c9e224ce4b93e25f3d4b55373d5dbe506ad85a250990b",
+      "note": "Accepted after all eleven requirement checks, strict 100% coverage, all four agent integrations, Trust doctor, and the full local Trust gate passed."
+    }
+  ]
+}

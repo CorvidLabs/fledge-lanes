@@ -14,11 +14,16 @@
 # ---------------------------------------------------------------------------
 
 [tasks]
+verify-templates = "python3 scripts/validate_templates.py"
 lint    = "echo 'Replace with your lint command (e.g. cargo clippy, ruff check ., eslint .)'"
 fmt     = "echo 'Replace with your format command (e.g. cargo fmt --check, ruff format --check .)'"
 test    = "echo 'Replace with your test command (e.g. cargo test, pytest, npm test)'"
 build   = "echo 'Replace with your build command (e.g. cargo build, npm run build)'"
 audit   = "echo 'Replace with your audit command (e.g. cargo audit, pip-audit, npm audit)'"
+
+[lanes.verify]
+description = "Validate every published Fledge lane template manifest"
+steps = ["verify-templates"]
 
 # ---------------------------------------------------------------------------
 # Lanes
