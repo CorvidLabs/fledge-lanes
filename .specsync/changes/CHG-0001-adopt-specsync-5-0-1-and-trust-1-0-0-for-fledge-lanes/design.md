@@ -5,4 +5,4 @@ artifact: design
 
 # Design
 
-Use immutable Trust with standard risk and progressive provenance; retain specialized workflows independently.
+Add one stable requirement per published manifest under a single `fledge-lanes` canonical specification. A deterministic Python validator parses each TOML document, checks the established lane names, validates task shapes and dependencies, and confirms every named lane step resolves. The root Fledge `verify` lane invokes that validator, giving Trust and SpecSync a repository-native entry point while never running consumer-oriented example commands. Trust uses the standard profile, blocking risk, progressive provenance, 100% contract coverage, and no Atlas publication.

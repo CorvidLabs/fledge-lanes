@@ -5,4 +5,4 @@ artifact: docs
 
 # Docs
 
-No public documentation or interface changes are required.
+The existing README remains the public usage guide and requires no semantic edit. The migration adds canonical SDD documentation for the already-published manifests and records the root repository verification lane. No toolchain example command, import path, or existing lane name changes.
