@@ -20,6 +20,13 @@
       "timestamp": 1783987491,
       "digest": "e2ca89ccbf4d6fb2a11c9e224ce4b93e25f3d4b55373d5dbe506ad85a250990b",
       "note": "Accepted after all eleven requirement checks, strict 100% coverage, all four agent integrations, Trust doctor, and the full local Trust gate passed."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1784414125,
+      "digest": "b319cba0ca03a8b382f4f1979f5fc88ab98c506a1a1adca739e3d850b59b39ab",
+      "note": "Re-acceptance with the Trust consumer pin at the released v1.1.1 immutable commit; canonical deltas were already integrated and were not replayed."
     }
   ],
   "reopenings": [

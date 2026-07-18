@@ -5,11 +5,11 @@
   "title": "Adopt SpecSync 5.0.1 and Trust 1.0.0 for Fledge Lanes",
   "description": "Adopt SpecSync 5.0.1 and Trust 1.0.0 for Fledge Lanes",
   "kind": "migration",
-  "state": "verifying",
+  "state": "accepted",
   "canonical_applied": true,
   "base_commit": "90159eb7531bf0b6cb7a05a100c3bf97a79ca363",
   "created_at": 1783887244,
-  "updated_at": 1784412126,
+  "updated_at": 1784414125,
   "affected_specs": [
     "fledge-lanes"
   ],

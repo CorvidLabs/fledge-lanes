@@ -1,6 +1,6 @@
 ---
 id: CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-for-fledge-lanes
-state: verifying
+state: accepted
 type: migration
 base_commit: 90159eb7531bf0b6cb7a05a100c3bf97a79ca363
 ---
