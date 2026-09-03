@@ -98,7 +98,7 @@ def main() -> int:
             "push:",
             "branches: [main]",
             "actions/checkout@v5",
-            "CorvidLabs/trust@a239f78658e5ad0f12fa230f494890e40c6e4d7b",
+            "CorvidLabs/trust@e0272543ad5c88ec75cea1e606cc2efa552af25b",
         )
         missing_markers = [marker for marker in workflow_markers if marker not in workflow]
         if missing_markers:
