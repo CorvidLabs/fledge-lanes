@@ -1,0 +1,73 @@
+{
+  "timestamp": 1784414053,
+  "commit": "86b1929a460c2b488998d31ed0b2d695dbf0ae07",
+  "contract_digest": "28be39fcd0c2bcaad9a4ad55ed57a4af59fbbd65458bede15e6d128b7e679aab",
+  "workspace_digest": "87c5d0639737dccbed974bb1a00ce6d6679cd4184703a1b7a0eab6e817446f4d",
+  "acceptance_input_digest": "9e37034cc04709a9b9015180f53513bb3f5faac8288b4fd8d53a5f61e08d414a",
+  "acceptance_manifest": {
+    "schema_version": 1,
+    "entries": [
+      {
+        "path": ".specsync/change-sequence.json",
+        "kind": "file",
+        "mode": 33188,
+        "payload_digest": "883d4e3d94fc87a9f6eb11c11264f40b3ab2d6cc76fbb060d376b29f0fde8b81",
+        "entry_digest": "6400d60ad11ba712bdd3c6edfb32e26b363f1d3e55b6ba12eac9c105cbcfb551",
+        "owners": [
+          "@exact:delivery"
+        ]
+      },
+      {
+        "path": "scripts/validate_templates.py",
+        "kind": "file",
+        "mode": 33188,
+        "payload_digest": "81c983ac1e161e45f101f9ae1fb3fc39c65f2e45b203a5e2d7f786ffc62a1578",
+        "entry_digest": "6d40139f6fd0ddbe9f8f8fcbf7b5fb5f29452ed2f87f0c8288b6cd63b086d280",
+        "owners": [
+          "fledge-lanes"
+        ]
+      },
+      {
+        "path": "specs/fledge-lanes/fledge-lanes.spec.md",
+        "kind": "file",
+        "mode": 33188,
+        "payload_digest": "4577c245a2fb111a403ca3c3ce9252c65f4b3318d83627a9bb9956767fed9e7f",
+        "entry_digest": "6b2c3be564e84b26034b57a725ce260e0082e35a8524a9572f15142a7fe2a193",
+        "owners": [
+          "fledge-lanes"
+        ]
+      },
+      {
+        "path": "specs/fledge-lanes/requirements.md",
+        "kind": "file",
+        "mode": 33188,
+        "payload_digest": "e77b2c68596bcdbe54deec182e28c7175bcfaabea305404f9885bfe66dbab031",
+        "entry_digest": "b5351de8feb2edc1349d7f96afa4a17c184dcd933057aaa174aec10efa756ffa",
+        "owners": [
+          "fledge-lanes"
+        ]
+      },
+      {
+        "path": "specs/fledge-lanes/testing.md",
+        "kind": "file",
+        "mode": 33188,
+        "payload_digest": "28a29a0f595c6f91d2e8b4302c9c92b575e6d3c926c26f6087d4615d0a5b052f",
+        "entry_digest": "67e1857ffa984fb15dce1ac503e186e865dd2c46a872f90abedc30a4c9d743ac",
+        "owners": [
+          "fledge-lanes"
+        ]
+      }
+    ]
+  },
+  "passed": true,
+  "commands": [
+    {
+      "command": "fledge lanes run verify",
+      "success": true,
+      "exit_code": 0
+    }
+  ],
+  "requirement_ids": [
+    "REQ-fledge-lanes-011"
+  ]
+}

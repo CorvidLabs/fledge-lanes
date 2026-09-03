@@ -20,6 +20,61 @@
       "timestamp": 1783987491,
       "digest": "e2ca89ccbf4d6fb2a11c9e224ce4b93e25f3d4b55373d5dbe506ad85a250990b",
       "note": "Accepted after all eleven requirement checks, strict 100% coverage, all four agent integrations, Trust doctor, and the full local Trust gate passed."
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1784414125,
+      "digest": "b319cba0ca03a8b382f4f1979f5fc88ab98c506a1a1adca739e3d850b59b39ab",
+      "note": "Re-acceptance with the Trust consumer pin at the released v1.1.1 immutable commit; canonical deltas were already integrated and were not replayed."
+    }
+  ],
+  "reopenings": [
+    {
+      "schema_version": 1,
+      "change_id": "CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-for-fledge-lanes",
+      "actor": "user:0xLeif",
+      "reason": "Trust consumer pin moves to the released v1.1.1 immutable commit; the Trust workflow is a governed delivery input of this change, so accepted verification is stale.",
+      "timestamp": 1784412111,
+      "from_state": "accepted",
+      "to_state": "verifying",
+      "superseded_approval": {
+        "gate": "acceptance",
+        "actor": "user:0xLeif",
+        "timestamp": 1783987491,
+        "digest": "e2ca89ccbf4d6fb2a11c9e224ce4b93e25f3d4b55373d5dbe506ad85a250990b",
+        "note": "Accepted after all eleven requirement checks, strict 100% coverage, all four agent integrations, Trust doctor, and the full local Trust gate passed."
+      },
+      "prior_verification": {
+        "timestamp": 1783987482,
+        "commit": "4ae29092a6efaac57dcdaa9eaa9d60c69c4ab8d9",
+        "contract_digest": "8b08b1b0a12b234e445fd14287c87a498d91a170985f141f30f524f454ec73ee",
+        "workspace_digest": "118e30a535c0448ae36d46f9186409541b59dec06f72bf836e63f173a635be50",
+        "acceptance_input_digest": "add4adeea6ff5cd16bc99fb41076e160ff5523b729eb04653109fbdd99185ffe",
+        "passed": true,
+        "commands": [
+          {
+            "command": "fledge lanes run verify",
+            "success": true,
+            "exit_code": 0
+          }
+        ],
+        "requirement_ids": [
+          "REQ-fledge-lanes-001",
+          "REQ-fledge-lanes-002",
+          "REQ-fledge-lanes-003",
+          "REQ-fledge-lanes-004",
+          "REQ-fledge-lanes-005",
+          "REQ-fledge-lanes-006",
+          "REQ-fledge-lanes-007",
+          "REQ-fledge-lanes-008",
+          "REQ-fledge-lanes-009",
+          "REQ-fledge-lanes-010",
+          "REQ-fledge-lanes-011"
+        ]
+      },
+      "stale_acceptance_input_digest": "add4adeea6ff5cd16bc99fb41076e160ff5523b729eb04653109fbdd99185ffe",
+      "current_acceptance_input_digest": "cedccea92e455067c44d4de7e650d0faf62be61b9a8a0a67045cb606c2ee837d"
     }
   ]
 }

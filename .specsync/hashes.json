@@ -1,0 +1,19 @@
+{
+  "hashes": {
+    "node-ci/fledge.toml": "94734e29fa49f1367e88d5367d72b96fac344c0003a1bf9a317b61e8576363da",
+    "go/fledge.toml": "2b8563a3e11976022dd175cab0d16e6922bdc8392ad7c3041d243b498f6bfef2",
+    "specs/fledge-lanes/testing.md": "28a29a0f595c6f91d2e8b4302c9c92b575e6d3c926c26f6087d4615d0a5b052f",
+    "scripts/validate_templates.py": "81c983ac1e161e45f101f9ae1fb3fc39c65f2e45b203a5e2d7f786ffc62a1578",
+    "fledge.toml": "11f1f5fad7474c84a65278ccd59aa5c79bf1bca6a26e045a2d255327e890dc36",
+    "release/fledge.toml": "ba2824cab5c652564bd43efc78fdcacb7eb9bda9b50862156a11c8fe95771dfa",
+    "python/fledge.toml": "dc3902bbab3672bdeef1592f2e6f9e83393c60e234053713e451ef956f1f4f3b",
+    "rust/fledge.toml": "8b568855266f5609d432ba952bd7e9d79970f2cf1d12ab177d619b4fdb0a5893",
+    "rust-ci/fledge.toml": "7ffe43e2307bc70887cf7261c64af8f89bd5242c99ef82f630a64b2b232a9b57",
+    "node-typescript/fledge.toml": "6063212637d6398e822d44e20cdac4af4088ec483d1ddbbe79c9b9fc00eb6fbb",
+    "docker/fledge.toml": "7650dc297ecd8e5103a4561a6eae7259ad94ddee2d11ee72cd51d45960bc395d",
+    ".specsync/config.toml": "fe97990fc59789d09055665a36ab355677fd8fe140def9d454c531e53990fb71",
+    "specs/fledge-lanes/fledge-lanes.spec.md": "4577c245a2fb111a403ca3c3ce9252c65f4b3318d83627a9bb9956767fed9e7f",
+    "specs/fledge-lanes/requirements.md": "e77b2c68596bcdbe54deec182e28c7175bcfaabea305404f9885bfe66dbab031",
+    ".github/workflows/trust.yml": "e28b188779e472697c96f8eb324ba34b358eef9f0c15f94adff3212a2def2e39"
+  }
+}

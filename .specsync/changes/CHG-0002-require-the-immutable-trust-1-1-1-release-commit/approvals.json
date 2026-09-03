@@ -1,0 +1,19 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "user:0xLeif",
+      "timestamp": 1784414014,
+      "digest": "28be39fcd0c2bcaad9a4ad55ed57a4af59fbbd65458bede15e6d128b7e679aab",
+      "note": null
+    },
+    {
+      "gate": "acceptance",
+      "actor": "user:0xLeif",
+      "timestamp": 1784414071,
+      "digest": "936d2e59442ac53177204e6ec8af8ccb60ca95ceadbd77284841648d84c9535d",
+      "note": "Closing approval: the canonical mandate and validator now require the immutable Trust 1.1.1 release commit."
+    }
+  ],
+  "reopenings": []
+}

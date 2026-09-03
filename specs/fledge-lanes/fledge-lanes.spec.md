@@ -1,6 +1,6 @@
 ---
 module: fledge-lanes
-version: 1
+version: 2
 status: stable
 files:
   - fledge.toml
@@ -80,3 +80,4 @@ The following identifiers are implementation-facing governance exports rather th
 |---------|------|---------|
 | 0 | 2026-07-13 | Baseline contract prepared for the SpecSync 5.0.1 and Trust 1.0.0 migration. |
 | 2026-07-14 | CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-for-fledge-lanes: Adopt SpecSync 5.0.1 and Trust 1.0.0 for Fledge Lanes |
+| 2 | 2026-07-18 | CHG-0002-require-the-immutable-trust-1-1-1-release-commit: Require the immutable Trust 1.1.1 release commit |
