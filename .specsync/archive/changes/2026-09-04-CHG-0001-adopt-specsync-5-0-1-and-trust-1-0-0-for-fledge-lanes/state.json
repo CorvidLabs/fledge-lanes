@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "CHG-0001-adopt-specsync-5-0-1-and-trust-1-0-0-for-fledge-lanes",
+  "slug": "adopt-specsync-5-0-1-and-trust-1-0-0-for-fledge-lanes",
+  "title": "Adopt SpecSync 5.0.1 and Trust 1.0.0 for Fledge Lanes",
+  "description": "Adopt SpecSync 5.0.1 and Trust 1.0.0 for Fledge Lanes",
+  "kind": "migration",
+  "state": "archived",
+  "base_commit": "90159eb7531bf0b6cb7a05a100c3bf97a79ca363",
+  "created_at": 1783887244,
+  "updated_at": 1788502622,
+  "affected_specs": [
+    "fledge-lanes"
+  ],
+  "affected_paths": [
+    ".github/",
+    ".specsync/",
+    ".trust.toml",
+    ".augur.toml",
+    ".attest.json",
+    "fledge.toml",
+    "rust/fledge.toml",
+    "rust-ci/fledge.toml",
+    "node-typescript/fledge.toml",
+    "node-ci/fledge.toml",
+    "python/fledge.toml",
+    "go/fledge.toml",
+    "docker/fledge.toml",
+    "release/fledge.toml",
+    "scripts/",
+    "specs/",
+    "AGENTS.md"
+  ],
+  "no_spec_change": false,
+  "no_spec_change_rationale": null,
+  "acceptance_criteria": [
+    "All nine published Fledge lane manifests parse and retain their established lane inventories",
+    "Every named task dependency and lane step resolves within its manifest",
+    "All eleven stable requirements have deterministic evidence without executing example or publication commands",
+    "SpecSync strict coverage, all four agent integrations, Trust doctor, and Trust verification pass"
+  ],
+  "selected_artifacts": [
+    "context",
+    "research",
+    "design",
+    "plan",
+    "tasks",
+    "testing",
+    "docs"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "yes",
+    "public_contract": "yes"
+  }
+}
